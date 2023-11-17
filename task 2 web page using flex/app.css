@@ -1,0 +1,47 @@
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: rgb(43, 241, 3);
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+    color: black;
+}
+.mainsection{
+    display: flex;
+}
+.columns{
+    display: flex;
+}
+.leftsidebar{
+    order: 1;
+    width: 250px;
+    background: #ec3838;
+    height: 400px;  
+    text-align: center;
+}
+.main{
+
+    order: 2;
+    background: #0a0000;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.rightsidebar{
+    order: 3;
+    width: 250px;
+    background: #d8f340;
+    height: 400px; 
+    text-align: center;
+}
+.footer{
+    background-color: rgb(59, 158, 240);
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+    color: black;
+}

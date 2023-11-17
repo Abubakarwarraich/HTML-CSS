@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-mareez clone</title>
+    <link href="app.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="body">
+    <div class="container">
+        <header class="header">
+            <div class="radialbar"></div>
+            <div class="navbar">
+                <div class="navbarelements">
+                    <ul>
+                        <li>
+                            <img src="https://e-mareez.com/_next/image?url=%2Flogo.png&w=256&q=75" width="150px"/>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Doctors
+                                </button>
+                                <div class="dropdown-content">
+                                  <a href="http://127.0.0.1:5500/index.html">Online Consultation</a>
+                                  <a href="#">In-Clinic Appointment</a>
+                                  <a href="#">Overseas Consultation</a>
+                                </div>
+                              </div>
+                            </li>
+                        <li id="findspecialist">Find Specialist</li>
+                        <li id="findclinic">Find Clinic</li>
+                        <li id="findhospital">Find Hospital</li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Labs
+                                </button>
+                                <div class="dropdown-content">
+                                  <a href="#">Citi Lab & Research Center</a>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Services
+                                    </button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Online Consultation</a>
+                                      <a href="#">Clinic Management System</a>
+                                      <a href="#">Hospital Management System</a>
+                                      <a href="#">Patient Care</a>
+                                      <a href="#">Home Services</a>
+                                    </div>
+                                  </div>
+                                </li>
+                        <li id="callus" type="button">Call Us</li>
+                        <li id="signin" type="button">Sign In</li>                    
+                    </ul>    
+                </div>
+            </div>
+            <div class="content">
+                <h1 id="h1">Search Doctors, Make an Appointment!</h1>
+                <p id="pargraph">Discover the best doctors, clinics and hospitals near you</p>
+            </div>
+            <div class="iconsboxflex">
+                    <div class="iconsbox" id="iconsbox1">
+                        <img id="iconsbox1img" src="57055.png" width="30px" />
+                        <p class="iconstxt1">H</p>
+                    </div>
+                    <div class="iconsbox" id="iconsbox2">
+                        <img id="iconsbox2img" src="57055.png" width="30px" />
+                        <p class="iconstxt1">C</p>
+                    </div>
+                    <div class="iconsbox" id="iconsbox3">
+                        <img id="iconsbox3img" src="57055.png" width="30px" />
+                        <p class="iconstxt1">D</p>
+                    </div>
+                    <div class="iconsbox" id="iconsbox4">
+                        <img id="iconsbox4img" src="57055.png" width="30px" />
+                        <p class="iconstxt1">D</p>
+                    </div>
+                    <div class="iconsbox" id="iconsbox5">
+                        <img id="iconsbox5img" src="57055.png" width="30px" />
+                        <p class="iconstxt1">S</p>
+                    </div>
+                    
+            </div>
+
+            <div class="heroimg"><img src="https://e-mareez.com/homepage/hero_image.svg" width="475px"/></div>
+            <div class="inputfieldbtn1">
+            
+                   <div class="dropdown">
+                   <button class="dropbtn" id="alldropdown">All
+                   </button>
+                   <div class="dropdown-content">
+                   <a href="#">Islamabad</a>
+                   <a href="#">Rawalpindi</a>
+                   <a href="#">Lahore</a>
+                   <a href="#">Karachi</a>
+                   <a href="#">Multan</a>
+                   <a href="#">Gujrat</a>
+                   </div>
+                   </div>
+                    <div id="line"></div> 
+                    <input type="text" id="inputfield" placeholder="Find Doctors " name="search">
+                    <button type="submit" id="btn">Find</button>
+                
+            </div>
+              <div class="bookappointment">
+                Book Appointment
+              </div>
+
+
+        </header>
+
+    </div>
+
+    <div class="secondpart">
+        <p id="extensive">Extensive Tools for you</p>
+
+        <div class="boxflex">
+        <div class="box">
+            <div class="txtwithimgbox">
+                <img id="imgwithtxt1" src="https://e-mareez.com/Bmi_images/bmi_calculator.svg" width="100px"/>
+                <p id="txtwithimg1">Get your health on track with our easy-to-use BMI calculator!
+                   Discover your body’s optimal weight and take the first step towards a happier, healthier you.</p>
+        </div>
+            <button id="imgtxtbtnbox1">BMI Calculator</button>
+
+        </div>
+        <div class="box">
+            <div class="txtwithimgbox">
+                <img id="imgwithtxt2" src="https://e-mareez.com/Bmi_images/symtomCalculaor.svg" width="100px"/>
+                <p id="txtwithimg2">Worried about your health? Our Symptoms Checker has got you covered! 
+                    Quickly identify potential conditions and take the next steps towards feeling your best.</p>
+        </div>
+            <button id="imgtxtbtnbox2">Symptoms Checker</button>
+        </div>
+        <div class="btnboxbackground">
+            <div>
+                <button class="btnbox">Patient Care</button>
+                <button class="btnbox">Clininc Management System</button>
+                <button class="btnbox">Hospital Management System</button>
+                <button class="btnbox">Online Consultation</button>
+
+            </div>
+        </div>
+        </div>
+        <div class=topsearch>
+            <h2>Top Searched Specialities</h2>
+            <p>Over 100+ specialities</p>
+        </div>
+        <div class="iconsboxflex">
+            <div class="iconsboxscnpart" id="iconsboxscnpart1">
+                <p>H</p>
+            </div>
+            <div class="iconsboxscnpart">
+                <p>C</p>
+            </div>
+            <div class="iconsboxscnpart">
+                <p>D</p>
+            </div>
+            <div class="iconsboxscnpart">
+                <p>D</p>
+            </div>
+            <div class="iconsboxscnpart">
+                <p>S</p>
+            </div>
+            <div class="iconsboxscnpart">
+                <p>S</p>
+            </div>
+    </div>
+        <button id="viewbutton">View All</button>
+    </div>
+    <div class="thirdpart">
+        <div class="radialbar2">
+            <div class="radialbartext">
+            <br><br>
+            <h2 id="yourhealth">Your Health is Your Strength!</h2>
+            <p id="freeemareez">Make free E-mareez account, and:</p>
+            <br><br>
+            <ul>
+                <li class="li">Manage your health records digitally</li><br>
+                <li class="li">Connect with your doctors anytime</li><br>
+                <li class="li">Connect with your doctors</li><br>
+            </ul><br>
+            <button id="createpatientbutton">Create Patient Account</button>
+            </div>
+        </div>
+        <div class="healthunitimg">  
+            <img src="https://e-mareez.com/homepage/heath-care.svg" width="620px" />
+        </div>
+    </div>
+    <div class="fourpart">
+        <p id="health">Health & Wellness Articles</p>
+        <div class="imgboxflex">
+            <div class="imgbox1">
+                <img class="imgboxwidth" src="https://61d.64f.myftpupload.com/wp-content/uploads/2023/09/Screenshot-2023-09-08-160144.png"
+                 width="350px" />
+                <h4 class="headingfont">Nurturing Heart Health: Connection Between Diet and High Cholesterol</h4><br>
+                <p class="txtcolor">Imagine the aroma of freshly prepared biryani filling the air,
+                   the sizzle of kebabs on the grill, 
+                   and the sound of loved ones chatting and …<br><br><br>8 Sep 2023</p>
+            
+            </div>
+            <div class="imgbox">
+                <img class="imgboxwidth" src="https://61d.64f.myftpupload.com/wp-content/uploads/2023/09/child-suffering-from-cancer-1-2.jpg"
+                 width="350px"/>
+                <h4 class="headingfont">Childhood Cancer (Pediatric Cancer) : Recognizing Signs and Symptoms</h4><br>
+                <p class="txtcolor">Parents in Pakistan are sensitive about the topic
+                   of childhood cancer.Knowing the warning signs and symptoms of children
+                   cancer is essential since an early …<br><br><br>8 Sep 2023</p>
+                   
+            </div>
+            <div class="imgbox">
+                <img class="imgboxwidth3" src="https://61d.64f.myftpupload.com/wp-content/uploads/2023/09/Screenshot-2023-09-05-122320.png" 
+                width="350px" height="235px"/>
+                <h4 class="headingfont">Preventing Stomach Ulcers: Lifestyle Changes and Tips</h4><br>
+                <p class="txtcolor">Peptic ulcers, also known as Stomach Ulcers, 
+                   are prevalent health problem in Pakistan that can be quite
+                   uncomfortable interfere with daily life. If …<br><br><br>5 Sep 2023</p>
+            </div>
+
+        </div>
+        
+        <button id="viewallbutton">View All</button>
+    </div>
+
+    <div class="fifthpart">
+
+        <div class="icononline">,,</div>
+        <div class="userexperienceline1"></div> 
+        <p id="userexperience">Our User's Experience</p>
+         <div class="userexperienceline2"></div>
+
+         <div class="userexperienceboxflex">
+
+            <div class="userexperiencetextbox">
+                <h3 id="donttext">Don’t take our word for it</h3><br>
+                <h3 id="trusttext">Trust our users</h3><br><br>
+                <p id="platformtext">
+                    Our platform connects doctors and patients across
+                    Pakistan,making healthcare accessible to all. Read on 
+                    to discover what our users have to say about their 
+                    experiences.</p>
+            </div>
+            <div class="userexperiencebox">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Molestiae quae consequuntur placeat autem quos odit repellat
+                   non voluptatum aut iusto nihil recusandae, ut voluptatibus?
+                   Corrupti deserunt quidem ex minima voluptates!</p>
+            </div>
+            <div class="userexperiencebox">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Molestiae quae consequuntur placeat autem quos odit repellat
+                    non voluptatum aut iusto nihil recusandae, ut voluptatibus?
+                    Corrupti deserunt quidem ex minima voluptates!</p>
+            </div>
+            <div class="userexperiencebox3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Molestiae quae consequuntur placeat autem quos odit repellat
+                    non voluptatum aut iusto nihil recusandae, ut voluptatibus?
+                    Corrupti deserunt quidem ex minima voluptates!</p>
+            </div>
+        </div>
+    </div>
+    <div class="sixthpart">
+
+        <div class="radialbar6">
+            <div class="radialbartext6">
+                <h2 id="downloademareez">Download E-Mareez App Today!</h2><br>
+                <p id="apptxt1">Access video consultation with Pakistan's top doctors on E-Mareez app.
+                   Connect with doctors <br>online (24/7), from the comfort of your home.</p><br>
+                <img src="Capture2.PNG" width="350px" />
+                <p id="apptxt2">Subscribe to get the latest news and updates. No spam, we promise.</p><br>
+                    
+                <form class="inputfieldbtn">
+                    <input type="text" id="inputfieldemail" placeholder="Enter Your Email Address " name="search">
+                    <button type="submit" id="btnsubscribe">Subscribe</button>
+                </form>
+
+            </div>
+        
+        </div>
+        <div class="apphomeimg">
+            <img src="https://e-mareez.com/_next/image?url=%2Fhomepage%2Fhp-phone.webp&w=1920&q=75" width="350px" />
+        </div>
+    </div>
+
+        <div class="columnlineboxflex">
+            <div class="columnlinebox">
+                <div class="iconsboxthirdpart">
+                    <p>P</p>
+                </div>
+                <p class="pmc"> PMC Verified Doctors<br>
+                    Authentic & updated information</p>
+                    <div class="line"></div>
+            </div>
+            <div class="columnlinebox">
+                <div class="iconsboxthirdpart">
+                    <p>C</p>
+                </div>
+        
+                <p class="pmc">24/7 Customer Support<br>
+                    Well trained and supportive team</p>
+                    <div class="line"></div>
+            </div>
+            <div class="columnlinebox">
+                <div class="iconsboxthirdpart">
+                    <p>S</p>
+                </div>
+                <p class="pmc"> Secure Online Payment<br>
+                    We possess SSL / Secure certificate</p>
+            </div>
+            
+        </div>
+    
+    <div class="seventhpart">
+
+        <div class="gridcontainer">
+            <div class="griditemimg">
+                <img src="https://e-mareez.com/footer-logo.svg" width="100px" /><br><br><br>
+                <p>44R Business Bay,3rd Floor Sector F,DHA<br>
+                    Phase-1,Islamabad,Punjab44000,PK</p>
+            </div>
+            <div class="griditemcompany">
+                <h3>Company</h3><br>
+                <p>About</p><br>
+                <p>Blogs</p><br>
+                <p>Contact</p>
+            </div>
+            <div class="griditemquicklinks">
+                <h3>Quick Links</h3><br>
+                <p>Find Doctors</p><br>
+                <p>Find Specialist</p><br>
+                <p>Find Clinic</p>
+            </div>
+            <div class="griditemcontact">
+                <h3>Cotact Us</h3><br>
+                <p>03095558055</p><br>
+                <p>info@e-mareez.com</p>
+            </div>
+            <div class="griditemsignin">
+                <h3>Sign In</h3><br>
+                <p>For Patient</p><br>
+                <p>For Doctor</p><br>
+                <p>For Clinic</p><br>
+                <p>For Staff</p>
+            </div>
+         </div>
+
+    </div>
+    <footer class="footer">
+        Copyright © 2022, E-Mareez Care (PVT) Limited. All rights reserved.
+        FAQs|Terms & Conditions|Privacy Policy|Payment Policy
+    </footer>
+
+</div>
+
+</body>
+</html>

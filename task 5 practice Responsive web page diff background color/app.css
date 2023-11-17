@@ -1,0 +1,22 @@
+.container {
+
+    background-color: rgb(241, 0, 0);
+    color: black;
+    
+}  
+
+@media only screen and (max-width: 480px) {
+    .container {
+      background-color: yellow;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 991px) {
+    .container {
+      background-color: pink;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
+    .container {
+      background-color: blue;
+    }
+}

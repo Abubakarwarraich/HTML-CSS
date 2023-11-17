@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Search Doctors</title>
+    <link href="app.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+
+    <div class="firstpart">
+        <header class="header">
+            <div class="navbar">
+            
+           <img src="https://e-mareez.com/_next/image?url=%2Flogo.png&w=256&q=75" width="150px"/>
+        
+           <div class="navbarelements">
+                <ul>
+                <li>
+                    <div class="dropdown">
+                    <button class="dropbtn" id="doctors">Doctors</button>
+                        <div class="dropdown-content">
+                        <a href="#">Online Consultation</a>
+                        <a href="#">In-Clinic Appointment</a>
+                        <a href="#">Overseas Consultation</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="findspecialist">Find Specialist</li>
+                <li id="findclinic">Find Clinic</li>
+                <li id="findhospital">Find Hospital</li>
+                <li>
+                    <div class="dropdown">
+                    <button class="dropbtn" id="labs">Labs</button>
+                        <div class="dropdown-content">
+                        <a href="#">Citi Lab & Research Center</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                    <button class="dropbtn" id="services">Services</button>
+                        <div class="dropdown-content">
+                        <a href="#">Online Consultation</a>
+                        <a href="#">Clinic Management System</a>
+                        <a href="#">Hospital Management System</a>
+                        <a href="#">Patient Care</a>
+                        <a href="#">Home Services</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="callus" type="button">Call Us</li>
+                <li id="signin" type="button">Sign In</li>   
+        
+                <i class="ri-menu-line">m
+                    <div class="dropdown">
+                    <button class="dropbtn"></button>
+                        <div class="dropdown-content">
+                        <a href="#">Doctors
+                        <li>Online Consultation</li>
+                        <li>In-Clinic Appointment</li>
+                        <li>Overseas Consultation</li>
+                        </a>
+                        <a href="#">Find Specialist</a>
+                        <a href="#">Find Clinic</a>
+                        <a href="#">Find Hospital</a>
+                        <a href="#">Find Lab
+                          <li>Citi Lab & Research Center</li>
+                        </a>
+                        <a href="#">Services
+                          <li>Online Consultation</li>
+                          <li>Clinic Management System</li>
+                          <li>Hospital Management System</li>
+                          <li>Patient Care</li>
+                          <li">Home Services</a>
+                        </a>
+                        <a href="#" id="callus" type="button">Call Us</a>
+                        <a href="#" id="signin" type="button">Sign In</a>  
+                  
+                        </div>
+                  
+                    </div>
+                </i>                 
+                </ul>    
+            </div>
+        
+            </div>
+        </header>
+        
+                <div class="content">
+                    <h1 id="h1">Connecting you to the Best Doctors around Pakistan!</h1>
+                    <p id="pargraph">Receive 10% discount on all appointments</p>
+                </div>
+
+    </div>
+
+ <div class="mainpart">
+
+    <div class="left">
+                <i class="ri-menu-add-line"></i><br>
+
+                <h4 class="font">City</h4><br>
+
+                <div class="inputfieldbtn1">
+                    
+                    <div class="dropdown">
+                    <button class="dropbtn" id="alldropdown">All
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="#">Islamabad</a>
+                    <a href="#">Rawalpindi</a>
+                    <a href="#">Lahore</a>
+                    <a href="#">Karachi</a>
+                    <a href="#">Multan</a>
+                    <a href="#">Gujrat</a>
+                    </div>
+                    </div>
+                </div><br>
+
+                <div class="consultationradio">
+                    <label for="consultation"><h4 class="font">Consultation</h4></label><br>
+                    <input type="radio" id="consultation" name="consultation">In-Clinic
+                    <input type="radio" id="consultation" name="consultation">Online
+                    <input type="radio" id="consultation" name="consultation">Overseas<br>
+                </div><br>
+
+             <h4 class="font">Speciality</h4><br>
+
+             <div class="inputfieldbtn1">
+         
+                 <div class="dropdown">
+                 <button class="dropbtn" id="select">Select
+                 </button>
+                 <div class="dropdown-content">
+                 <a href="#">Cosmetologist</a>
+                 <a href="#">Urologist</a>
+                 <a href="#">Cardiologist</a>
+                 <a href="#">Dentist</a>
+                 <a href="#">Dermatologist</a>
+                 <a href="#">Hepatologist</a>
+                 </div>
+                 </div>
+
+            </div><br>
+
+            <div class="slidecontainer">
+                <h4 class="font">Fee-Range</h4><br>
+                <input type="range" id="slider1" name="slider" min="0" max="100" value="25">
+                <p>Fee Range:<span id="sliderValue">50-5000</span></p><br>
+            </div>
+
+            <div class="slidecontainer">
+                <h4 class="font">Experience</h4><br>
+                <input type="range" id="slider" name="slider" min="0" max="100" value="25">
+                <p>5 years</p><br>
+            </div>
+
+            <div class="availabilityradio">
+                <label for="availability"><h4 class="font">Availability</h4></label><br>
+                <input type="radio" id="availability" name="availability">Available This Weak<br>
+                <input type="radio" id="availability" name="availability">Available Today<br><br>
+            </div>
+            
+            <div class="genderradio">
+                <label for="gender"><h4 class="font">Gender</h4></label><br>
+                <input type="radio" id="gender" name="gender">Any<br>
+                <input type="radio" id="gender" name="gender">Male<br>
+                <input type="radio"id="gender" name="gender">Female<br><br>
+            </div>
+
+    </div>
+    
+
+    <div class="right">
+
+    <input type="text" id="searchdoctor" placeholder="Find Doctor by Name" name="search">
+    <i class="ri-menu-add-line" id="scndicon"></i>
+
+    <div class="firsttable">
+
+        <div class="images">
+                <img src="https://www.e-mareez.com/api/doctor/image?pmdc=97420-P" alt="" width="75px"><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4eb5p80zcVq5e1gqAJx44VP4W5sLB_gIiPg&usqp=CAU" 
+                 width="75px">
+        </div>
+
+        <div class="namedetail"> 
+            <h4>Dr Munawal Javid</h4>
+            <p1>General Physician</p1>
+            <p>MBBS</p><br>
+
+            <div class="experiencebox">
+                <div class="text">
+                <p>Experience</p>
+                <h7>4 Years</h7>
+                </div>
+                <div class="line"></div>
+                <div class="text">
+                <p>Satisfaction</p>
+                <h7>100%</h7>
+                </div>
+                <div class="line"></div>
+                <div class="text">
+                <p>Wait time</p>
+                <h7>0 mins</h7>
+                </div>
+                <div class="line"></div>
+                <div class="text">
+                <p>Reviews</p>
+                <h7>0</h7>
+                </div>
+            </div>
+                    
+        </div>
+
+        <div class="buttons">
+            <button id="recommenddoctor">Recommend Doctor</button><br><br>
+            <button id="viewprofile">View Profile</button>
+        </div>
+                    
+    </div>
+            
+    <div class="secondtable">
+
+        <div class="secondtablefirstsec">
+            <div>Available Today</div>
+            <div>Rs 1500</div>
+        </div>
+
+        <div class="secondtablesecondsec">
+            <div>
+            <p id="consultation">Online Consultation</p><br>
+            <p>Wed, Tue, Thu, Fri, Sat, Sun, Mon</p>
+            </div>
+                        
+            <div>
+            <button id="bookappointment">Book Appointment</button>
+            </div>
+
+        </div>
+
+    </div><br>
+
+    <div class="border"></div>
+    
+    
+
+    <div class="firsttable">
+
+        <div class="images">
+                <img src="https://www.e-mareez.com/api/doctor/image?pmdc=97420-P" alt="" width="75px"><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4eb5p80zcVq5e1gqAJx44VP4W5sLB_gIiPg&usqp=CAU" 
+                 width="75px">
+        </div>
+      
+        <div class="namedetail"> 
+            <h4>Dr Maryam</h4>
+            <p1>Gynecologist</p1>
+            <p>MBBS</p><br>
+      
+            <div class="experiencebox">
+                <div class="text">
+                <p>Experience</p>
+                <h7>4 Years</h7>
+                </div>
+                <div class="line"></div>
+                <div class="text">
+                <p>Satisfaction</p>
+                <h7>100%</h7>
+                </div>
+                <div class="line"></div>
+                <div class="text">
+                <p>Wait time</p>
+                <h7>0 mins</h7>
+                </div>
+                <div class="line"></div>
+                <div class="text">
+                <p>Reviews</p>
+                <h7>0</h7>
+                </div>
+            </div>
+                    
+        </div>
+      
+        <div class="buttons">
+            <button id="recommenddoctor">Recommend Doctor</button><br><br>
+            <button id="viewprofile">View Profile</button>
+        </div>
+                    
+      </div>
+            
+      <div class="secondtable">
+      
+        <div class="secondtablefirstsec">
+            <div>Available Today</div>
+            <div>Rs 1500</div>
+        </div>
+      
+        <div class="secondtablesecondsec">
+            <div>
+            <p id="consultation">Online Consultation</p><br>
+            <p>Wed, Tue, Thu, Fri, Sat, Sun, Mon</p>
+            </div>
+                        
+            <div>
+            <button id="bookappointment">Book Appointment</button>
+            </div>
+      
+        </div>
+      </div><br>
+
+      <div class="border"></div>
+      
+      
+      <br>
+
+      <button class="loadmorebtn">Load More</button>
+
+ </div>
+
+ </div>
+
+ <div class="seventhpart">
+
+        <div class="gridcontainer">
+            <div class="griditemimg">
+                <img src="https://e-mareez.com/footer-logo.svg" width="100px" /><br><br><br>
+                <p>44R Business Bay,3rd Floor Sector F,DHA<br>
+                    Phase-1,Islamabad,Punjab44000,PK</p>
+            </div>
+            <div class="griditemcompany">
+                <h3>Company</h3><br>
+                <p>About</p><br>
+                <p>Blogs</p><br>
+                <p>Contact</p>
+            </div>
+            <div class="griditemquicklinks">
+                <h3>Quick Links</h3><br>
+                <p>Find Doctors</p><br>
+                <p>Find Specialist</p><br>
+                <p>Find Clinic</p>
+            </div>
+            <div class="griditemcontact">
+                <h3>Cotact Us</h3><br>
+                <p>03095558055</p><br>
+                <p>info@e-mareez.com</p>
+            </div>
+            <div class="griditemsignin">
+                <h3>Sign In</h3><br>
+                <p>For Patient</p><br>
+                <p>For Doctor</p><br>
+                <p>For Clinic</p><br>
+                <p>For Staff</p>
+            </div>
+         </div>
+
+    </div>
+
+
+    <footer class="footer">
+        Copyright © 2022, E-Mareez Care (PVT) Limited. All rights reserved.
+        FAQs|Terms & Conditions
+    </footer>
+
+</div>
+
+</body>
+</html>

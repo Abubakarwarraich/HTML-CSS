@@ -1,0 +1,70 @@
+.gridcontainer{
+  display: grid;
+  column-gap: 15px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  background-color: darkgray;
+}
+.griditem1{
+  background-color: yellowgreen;
+  text-align: center;
+  border: 3px solid black;
+  padding: 50px;
+  font-size: large;
+  font-style: italic;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.griditem2{
+  background-color: yellowgreen;
+  text-align: center;
+  border: 3px solid black;
+  padding: 50px;
+  font-size: large;
+  font-style: italic;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.griditem3{
+  background-color: yellowgreen;
+  text-align: center;
+  border: 3px solid black;
+  padding: 50px;
+  font-size: large;
+  font-style: italic;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.griditem4{
+  background-color: yellowgreen;
+  text-align: center;
+  border: 3px solid black;
+  padding: 50px;
+  font-size: large;
+  font-style: italic;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.griditem5{
+  background-color: yellowgreen;
+  text-align: center;
+  border: 3px solid black;
+  padding: 50px;
+  font-size: large;
+  font-style: italic;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.griditem6{
+  background-color: yellowgreen;
+  text-align: center;
+  border: 3px solid black;
+  padding: 50px;
+  font-size: large;
+  font-style: italic;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}

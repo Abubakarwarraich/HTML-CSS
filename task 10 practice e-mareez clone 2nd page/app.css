@@ -1,0 +1,988 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: #e5e7eb;
+  width: 100%;
+  
+}
+.firstpart{
+  background-color: rgb(228 244 255);
+  width: 100%;
+  height: 27vw;
+
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+}
+.navbarelements ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2.5vw;  
+}
+.navbar i{
+  font-size: 1vw;
+  display: none;
+}
+#doctors{
+  color: black;
+  font-size: 1.75vw;
+}
+#findspecialist{
+  color: black;
+  font-size: 1.75vw;
+}
+#findclinic{
+  color: black;
+  font-size: 1.75vw;
+}
+#findhospital{
+  color: black;
+  font-size: 1.75vw;
+}
+#labs{
+  color: black;
+  font-size: 1.75vw;
+}
+#services{
+  color: black;
+  font-size: 1.75vw;
+}
+#callus{
+  background-color: rgb(230, 59, 59);
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+#callus:hover{
+  background-color:  rgb(179, 22, 56);
+}
+#signin{
+  background-color: rgb(230, 59, 59);
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  padding: 10px
+}
+#signin:hover{
+  background-color:  rgb(179, 22, 56);
+}
+#findspecialist:hover{
+  border-bottom: 4px solid rgb(0 85 168);
+}
+#findclinic:hover{
+  border-bottom: 4px solid rgb(0 85 168);
+}
+#findhospital:hover{
+  border-bottom: 4px solid rgb(0 85 168);
+}
+.content{
+  align-items: center;
+  justify-content: center;
+}
+#h1{
+  color: rgb(0 85 168);
+  text-align: center;
+  margin-top: 6vw;
+}
+#pargraph{
+  background-color: rgb(0 85 168);
+  color: white;
+  border-radius: 0.5rem;
+  height: 4.5vw;
+  width: 40vw;
+  font-size: 1.75vw;
+  padding: 1.25vw;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2vw;
+  margin-left: 30vw;
+}
+.mainpart{
+  display: flex;
+  margin-top: -3vw;
+
+}
+.left{
+  background-color: rgb(252, 138, 0);
+  width: 22.5%;
+  height: 25%;
+  padding: 1.25vw;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: sticky;
+  left: 5vw;
+}
+.left i{
+  font-size: 3vw;
+  margin-left: 90%; 
+}
+
+.font{
+  font-size: 1.5vw;
+}
+.inputfieldbtn1{
+  background-color: white;
+  border: 1px solid slategray;
+  height: 2.5vw;
+  font-size: 1vw;
+  width: 20vw;
+  text-align: right; 
+}
+#alldropdown{
+  font-size: 1vw;
+  color: gray;
+}
+#select{
+  color: gray;
+}
+.slidecontainer{
+  width: 100%;
+  color: black;
+}
+.right{
+  background-color: white;
+  padding: 3vw;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  position: absolute;
+  left: 27.25vw;
+  top: 24vw;
+}
+#searchdoctor{
+  outline: none;
+  border-radius: 8vw;
+  height: 4vw;
+  width: 60vw;
+  font-size: 1vw;
+  padding: 1.5vw;
+}
+#scndicon{
+  font-size: 2vw;
+  border-radius: 0.5vw;
+  width: 4vw;
+  height: 2vw;
+  display: none;
+}
+.firsttable{
+  display: flex;
+  height: 15%;
+  padding: 1vw;
+  gap: 2vw;
+  margin-top: 2vw;
+  
+}
+.namedetail h4{
+  color: blue;
+}
+.namedetail p1{
+  color: blue;
+}
+.experiencebox{
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vw;
+  gap: 0.75vw;
+}
+.text{
+
+  text-align: center;
+}
+.line{
+  border: 0.15px solid lightgray;
+  width: 0.15px;
+  height: 40px;
+}
+.buttons{
+  margin-left: 12vw;
+}
+#recommenddoctor{
+  border-radius: 5px;
+  background-color: transparent;
+  color: darkblue;
+  width: 12.5vw;
+  height: 2.5vw;
+  border: 1px solid darkblue;
+  align-items: center;
+}
+#recommenddoctor:hover{
+  background-color: rgb(214, 214, 214);
+}
+#viewprofile{
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  width: 12vw;
+  height: 2.5vw;
+  border: 1px solid blue;
+  align-items: center;
+}
+#viewprofile:hover{
+  background-color: rgb(39, 2, 85);
+}
+.secondtablefirstsec{
+  display: flex;
+  border: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: none;
+  gap: 45vw;
+  color: gray;
+  padding: 1.5vw;
+}
+.secondtablesecondsec{
+  display: flex;
+  border: 1px solid lightgray;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 20%;
+  gap: 28vw;
+  padding: 1.5vw;
+  align-items: center;
+}
+#consultation{
+  color: blue;
+}
+
+#bookappointment{
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  width: 13vw;
+  height: 2.5vw;
+  border: 1px solid blue;
+  align-items: center;
+}
+#bookappointment:hover{
+  background-color: rgb(39, 6, 78);
+}
+.border{
+  border: 1px solid lightgray;
+
+}
+.loadmorebtn{
+  background-color: blue;
+  color: white;
+  width: 12vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  border-color: blue;
+  margin-left: 25vw;
+  margin-top: 1vw;
+}
+.loadmorebtn:hover{
+  background-color: darkblue;
+}
+.seventhpart{
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: 250px;
+  margin-top: 20vw;
+  
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 2px;
+  padding: 10px;
+}
+.griditemimg{
+ margin-left: 20px;
+  padding: 10px;
+}
+.griditemcompany{
+  padding: 10px;
+
+}
+.griditemquicklinks{
+  padding: 10px;
+}
+.griditemcontact{
+  padding: 10px;
+}
+.griditemsignin{
+  padding: 10px;
+}
+.footer{
+  background-color: darkblue;
+  width: 100%;
+  height: 55px;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1vw;
+  padding: 10px;
+  background-color: inherit;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(144, 220, 223)
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1024px){
+
+  .navbar{
+    padding: 0 2vw;
+  }
+  .navbarelements li{
+    display: none;
+  } 
+  .navbar i {
+    font-size: 6vw;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    display: block;
+  }
+
+  #doctors{
+    color: black;
+    font-size: 5px;
+  }
+  #findspecialist{
+    color: black;
+    font-size: 5px;
+  }
+  #findclinic{
+    color: black;
+    font-size: 5px;
+  }
+  #findhospital{
+    color: black;
+    font-size:5px;
+  }
+  #labs{
+    color: black;
+    font-size: 5px;
+  }
+  #services{
+    color: black;
+    font-size: 5px;
+  }
+  #callus{
+    background-color: rgb(230, 59, 59);
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+  #signin{
+    background-color: rgb(230, 59, 59);
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 10px
+  }
+  #pargraph{
+    font-size: 2vw;
+  }
+
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+
+  .body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+.navbarelements{
+  margin-right: 250px
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .buttons{
+    margin-left: 40vw;
+    margin-top: -225px;
+  }
+  .firsttable{
+    flex-direction: column;
+  }
+  #searchdoctor{
+    height: 4vw;
+    width: 55vw;
+    font-size: 1.5vw;
+  }
+  .secondtable{
+    margin-top: 150px;
+  }
+  .seventhpart{
+    margin-top: 52vw;
+  }
+  .right{
+    width: 62%;
+    margin-left: 3vw;
+  }
+  .left{
+    margin-left: 8vw;
+  }
+  .loadmorebtn{
+    margin-left: 21vw;
+  }
+  #pargraph{
+    margin-top: 2vw;
+  }
+  #h1{
+    margin-top: 25px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+  .buttons{
+      margin-left: 40vw;
+      margin-top: -225px;
+  }
+  #bookappointment{
+    width: 15vw;
+    height: 4vw;
+  }
+  #recommenddoctor{
+  
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+  }
+  .firsttable{
+    flex-direction: column;
+  }
+  .secondtable{
+    margin-top: 150px;
+  }
+  #searchdoctor{
+    height: 4vw;
+    width: 55vw;
+    font-size: 1.5vw;
+  }
+  #viewprofile{
+    width: 14vw;
+    height: 3vw;
+  }
+  #alldropdown{
+    font-size: 0.75vw;
+  }
+  #select{
+    font-size: 0.75vw;
+  }
+  .seventhpart{
+    margin-top: 52vw;
+  }
+  .right{
+    width: 62%;
+    margin-left: 3vw;
+  }
+  .left{
+    margin-left: 8vw;
+  }
+  .loadmorebtn{
+    margin-left: 21vw;
+  }
+  #pargraph{
+    margin-top: 1vw;
+  }
+  #h1{
+    margin-top: 2vw;
+  }
+  .seventhpart{
+    margin-top: 75vw;
+  }
+  .secondtablefirstsec{
+    gap: 40vw;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px){
+  
+  .container{
+    width: 141.5%;
+  }
+  .firstpart{
+    background-color: rgb(228 244 255);
+    height: 60vw;
+  }
+  #pargraph{
+    height: 12vw;
+    width: 130vw;
+    font-size: 7vw;
+    padding: 2vw;
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 5.5vw;
+  }
+  #searchdoctor{
+    height: 10vw;
+    width: 120vw;
+    font-size: 3.5vw;
+    margin-top: -10vw;
+  }
+  .left{
+    display: none;
+  } 
+  #scndicon{
+    width: 4vw;
+    height: 2vw;
+    display: inline;
+    font-size:10vw;
+    margin-left: 2vw;
+    margin-top: 5vw;
+  }
+  .buttons{
+    margin-left: 90vw;
+    margin-top: -225px;
+  }
+  #bookappointment{
+    width: 38vw;
+    height: 9.5vw;
+    font-size: 4vw;
+  }
+  #recommenddoctor{
+  
+    width: 40vw;
+    height: 8vw;
+    font-size: 3.5vw;
+  }
+  #viewprofile{
+    width: 38vw;
+    height: 8vw;
+    font-size: 3.5vw;
+  }
+  .secondtablefirstsec{
+    gap: 92vw;
+    color: gray;
+    padding: 1.5vw;
+  }
+  .secondtablesecondsec{
+  
+    gap: 50vw;
+    width: auto;
+    padding: 1.5vw;
+    align-items: center;
+  }
+  #alldropdown{
+    font-size: 0.75vw;
+  }
+  #select{
+    font-size: 0.75vw;
+  }
+  .firsttable{
+    flex-direction: column;
+    width: 80%;
+    font-size: 5vw;
+  }
+  .experiencebox{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    gap: 1vw;
+    margin-left: 10vw;
+  }
+  .secondtable{
+    margin-top: 175px;
+    width: 100%;
+    font-size: 5vw;
+  }
+  .border{
+    width: 135vw;
+  }
+  .right{
+    margin-top: 35vw;
+    width: 141%;
+    margin-left: -27.2vw;
+    border-radius: 2vw;
+  }
+  .loadmorebtn{
+    height: 7vw;
+    width: 30vw;
+    margin-left: 52.5vw;
+  }
+  .seventhpart{
+    width: 100%;
+    margin-top: 290vw;
+    height: auto;
+  }
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 1px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .griditemimg{
+   margin-left: 0px;
+  }
+  .griditemcompany{
+    margin-left: 0px;
+  }
+  .griditemquicklinks{
+    margin-left: 10px;
+  }
+  .griditemcontact{
+    margin-left: 10px;
+  }
+  .griditemsignin{
+    margin-left: 10px;
+  }
+  .footer{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px){
+  
+  .container{
+    width: 141.5%;
+  }
+  .firstpart{
+    background-color: rgb(228 244 255);
+    height: 70vw;
+  }
+  #pargraph{
+
+    height: 15vw;
+    width: 135vw;
+    font-size: 7vw;
+    padding: 3vw;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 3vw;
+  }
+  #searchdoctor{
+    height: 10vw;
+    width: 120vw;
+    font-size: 4.5vw;
+    margin-top: -10vw;
+  }
+  .left{
+    display: none;
+  } 
+  .right{
+    width: 62%;
+    margin-left: 3vw;
+  }
+  #scndicon{
+    width: 4vw;
+    height: 2vw;
+    display: inline;
+    font-size:10vw;
+    margin-left: 2vw;
+    margin-top: 5vw;
+  }
+  .buttons{
+    margin-left: 90vw;
+    margin-top: -225px;
+  }
+  #bookappointment{
+    width: 38vw;
+    height: 9.5vw;
+    font-size: 4vw;
+  }
+  #recommenddoctor{
+  
+    width: 40vw;
+    height: 8vw;
+    font-size: 3.5vw;
+  }
+  #viewprofile{
+    width: 38vw;
+    height: 8vw;
+    font-size: 3.5vw;
+  }
+  .firsttable{
+    flex-direction: column;
+    width: 80%;
+    font-size: 5vw;
+  }
+  .experiencebox{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    gap: 1vw;
+    margin-left: 10vw;
+  }
+  .secondtablefirstsec{
+    gap: 92vw;
+    color: gray;
+    padding: 1.5vw;
+  }
+  .secondtablesecondsec{
+  
+    gap: 50vw;
+    width: auto;
+    padding: 1.5vw;
+    align-items: center;
+  }
+  #alldropdown{
+    font-size: 0.75vw;
+  }
+  #select{
+    font-size: 0.75vw;
+  }
+  .secondtable{
+    margin-top: 175px;
+    width: 100%;
+    font-size: 5vw;
+  }
+  .border{
+    width: 135vw;
+  }
+  .right{
+    margin-top: 45vw;
+    width: 141%;
+    margin-left: -27.2vw;
+    border-radius: 2vw;
+  }
+  .loadmorebtn{
+    height: 7vw;
+    width: 30vw;
+    margin-left: 52.5vw;
+  }
+  .seventhpart{
+    width: 100%;
+    margin-top: 295vw;
+    height: auto;
+  }
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: auto ;
+    column-gap: 3px;
+    padding: 2px;
+    font-size: 20px;
+  }
+  .griditemimg{
+   margin-left: 25px;
+  
+  }
+  .griditemcompany{
+    margin-left: 25px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .griditemquicklinks{
+    margin-left: 5px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .griditemcontact{
+    margin-left: 25px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .griditemsignin{
+    margin-left: 5px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .footer{
+    width: 100%;
+    height: 10%;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 250px) and (max-width: 320px){
+  
+  .container{
+    width: 156%;
+  }
+  .firstpart{
+    background-color: rgb(228 244 255);
+    height: 75vw;
+  }
+  #pargraph{
+
+    height: 15vw;
+    width: 150vw;
+    font-size: 8vw;
+    padding: 2vw;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 3vw;
+  }
+  #h1{
+    margin-top: 4vw;
+  }
+  #searchdoctor{
+    height: 10vw;
+    width: 135vw;
+    font-size: 5vw;
+    margin-top: -10vw;
+  }
+  .left{
+    display: none;
+  } 
+  #scndicon{
+    width: 4vw;
+    height: 2vw;
+    display: inline;
+    font-size:10vw;
+    margin-left: 2vw;
+    margin-top: 5vw;
+  }
+  .buttons{
+    margin-left: 95vw;
+    margin-top: -225px;
+  }
+  #bookappointment{
+    width: 50vw;
+    height: 10vw;
+    font-size: 5vw;
+  }
+  #recommenddoctor{
+  
+    width: 50vw;
+    height: 10vw;
+    font-size: 4.5vw;
+  }
+  #viewprofile{
+    width: 48vw;
+    height: 10vw;
+    font-size: 4.5vw;
+  }
+  .firsttable{
+    flex-direction: column;
+    width: 80%;
+    font-size: 6vw;
+  }
+  .experiencebox{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    gap: 1vw;
+    margin-left: 8vw;
+  }
+  .secondtablefirstsec{
+    gap: 92vw;
+    color: gray;
+    padding: 1.5vw;
+  }
+  .secondtablesecondsec{
+  
+    gap: 50vw;
+    width: auto;
+    padding: 1.5vw;
+    align-items: center;
+  }
+  #alldropdown{
+    font-size: 0.75vw;
+  }
+  #select{
+    font-size: 0.75vw;
+  }
+  .secondtable{
+    margin-top: 175px;
+    width: 100%;
+    font-size: 6vw;
+  }
+  .border{
+    width: 150vw;
+  }
+  .right{
+    margin-top: 50vw;
+    width: 156%;
+    margin-left: -27.2vw;
+    border-radius: 2vw;
+  }
+  .loadmorebtn{
+    height: 10vw;
+    width: 40vw;
+    margin-left: 55vw;
+    font-size: 5vw;
+  }
+  .seventhpart{
+    width: 100%;
+    margin-top: 355vw;
+    height: auto;
+  }
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: auto ;
+    column-gap: 3px;
+    padding: 2px;
+    font-size: 20px;
+  }
+  .griditemimg{
+   margin-left: 25px;
+  
+  }
+  .griditemcompany{
+    margin-left: 25px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .griditemquicklinks{
+    margin-left: 5px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .griditemcontact{
+    margin-left: 25px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .griditemsignin{
+    margin-left: 5px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .footer{
+    
+    width: 100%;
+    height: 10%;
+    font-size: 15px;
+  }
+}

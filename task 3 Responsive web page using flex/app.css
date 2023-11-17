@@ -1,0 +1,54 @@
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: rgb(43, 241, 3);
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+    color: black;
+}
+.mainsection{
+    display: flex;
+}
+.columns{
+    display: flex;
+}
+.leftsidebar{
+    order: 1;
+    background: #ec3838;
+    height: 400px;  
+    text-align: center;
+}
+.main:hover{
+    background-color: #3f075f;
+}
+.main{
+    order: 2;
+    background: #0a0000;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.rightsidebar{
+    order: 3;
+    background: #d8f340;
+    height: 400px; 
+    text-align: center;
+}
+.footer{
+    background-color: rgb(59, 158, 240);
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+    color: black;
+}
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    
+    .columns{
+        width: 100%;
+        flex-direction: column;
+    }
+}

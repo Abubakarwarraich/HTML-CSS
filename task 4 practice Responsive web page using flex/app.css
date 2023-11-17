@@ -1,0 +1,58 @@
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.header{
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+    color: black;
+
+}
+.mainsection{
+    display: flex;
+}
+.columns{
+    display: flex;
+}
+.kurta{
+    order: 3;
+    background: #b83030; 
+    text-align: center;
+    color: white;
+}
+.shoes{
+    order: 4;
+    background: #b83030;
+    text-align: center;
+    color: white;
+}
+.shirt{
+    order: 2;
+    background: #b83030;
+    text-align: center;
+    color: white;
+}
+.jeans{
+    order: 1;
+    background: #b83030;
+    text-align: center;
+    color: white;
+}
+.footer{
+    background-color: rgb(255, 121, 237);
+    text-align: center;
+    padding: 25px;
+    font-size: medium;
+    color: black;
+}
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    
+    .columns{
+        width: 100%;
+        flex-direction: column;
+    }
+}

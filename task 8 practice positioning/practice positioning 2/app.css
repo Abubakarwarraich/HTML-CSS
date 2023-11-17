@@ -1,0 +1,24 @@
+.container{
+  background-color: aqua;
+  height: 1500px;
+}
+.navbar{
+
+  background-color: Yellow;
+  border: 2px solid black;
+  height: 100px;
+  width: 500px;
+  border-radius: 20px;
+  position: fixed;
+  top: 0px;
+}
+.navbarelements ul{
+  overflow: auto;
+
+}
+.navbarelements li{
+  float: left;
+  list-style: none;
+  padding: 20px;
+  font-style: bold;
+}

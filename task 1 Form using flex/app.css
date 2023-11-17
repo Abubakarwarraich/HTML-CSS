@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.container{
+    display: flex;
+    background: red;
+    justify-content: center;
+    height: 800px;
+    align-items: flex-start;
+}
+.sform{
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#email{
+    margin: 15px;
+    width: 540px;
+}
+input[type="text"]{
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+input[type="password"]{
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+.radio{
+    font-size: 30px;
+    margin: 20px;
+}
+.checkbox{
+    font-size: 30px;
+    margin: 20px;
+}
+
+input[type="button"]{
+    
+    padding: 10px;
+    width: 600px;
+    font-size: 20px;
+    background-color: blue;
+    color: aliceblue;
+}

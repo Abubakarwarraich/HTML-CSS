@@ -1,0 +1,35 @@
+.container{
+  background-color: blueviolet;
+  height: 2500px;
+}
+
+.box{
+  display: inline-block;
+  border: 2px solid black;
+  height: 200px;
+  width: 150px;
+  margin: 30px;
+  padding: 20px;
+  background-color: aqua;
+}
+#box1{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+#box2{
+  position: relative;
+  top: 180px;
+  left: 180px;
+}
+#box3{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+#box4{
+  position: sticky;
+  top: 10px;
+  left: 500px;
+}
+
